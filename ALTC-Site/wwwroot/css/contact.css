@@ -1,0 +1,65 @@
+.hidden {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+#Request {
+  text-align: center;
+  
+}
+
+#margin{
+  margin-top: 5px;
+}
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Center-align the submit button within the forms */
+form button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Add margin-bottom to create space between input elements */
+.form-control + .form-control {
+  margin-bottom: 20px; /* Adjust the value as needed for your desired spacing */
+}
+.custom-heading {
+  font-size: 40px;
+  color: rgb(196, 25, 25);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.custom-span {
+  color: red; /* Customize the color as needed */
+}
+
+.custom-paragraph {
+  font-size: 24px;
+  color: #333; /* Adjust the color as needed */
+}
+.form-wrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+  margin-bottom: 10px; /* Add spacing between forms */
+}
