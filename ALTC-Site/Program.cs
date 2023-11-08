@@ -10,6 +10,7 @@ builder.Services.Configure<AltcDatabaseSettings>(
 builder.Configuration.GetSection("altcwebsite"));
 builder.Services.AddScoped<ITechnicalSupportService, TechnicalSupportService>();
 builder.Services.AddScoped<IJobcandidateService, JobCandidatecsService>();
+builder.Services.AddScoped<IStaticData, StaticDataService>();
 
 builder.Services.AddScoped<IComplainService, ComplainService>();
 builder.Services.AddScoped<IRequestService, RequestService>();

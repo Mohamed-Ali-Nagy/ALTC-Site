@@ -38,7 +38,7 @@ namespace ALTC_Website.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(RequestVM requestVM)
+        public IActionResult Create(JobRequsetVM requestVM)
         {
           
             JobCandidate request = new JobCandidate()
@@ -47,6 +47,9 @@ namespace ALTC_Website.Controllers
                 Details = requestVM.Details,
                 Email = requestVM.Email,
                 Phone = requestVM.Phone,
+                Message = requestVM.Message,
+                JobTitile=requestVM.JobTitile,
+                
             };
             if (requestVM.File != null)
             {

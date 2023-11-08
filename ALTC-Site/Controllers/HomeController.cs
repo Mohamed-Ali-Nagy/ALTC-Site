@@ -1,4 +1,4 @@
-using ALTC_Site.Models;
+using ALTC_Website.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -26,7 +26,7 @@ namespace ALTC_Site.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
     }
 }
