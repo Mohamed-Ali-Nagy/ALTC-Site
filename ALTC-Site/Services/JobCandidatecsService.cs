@@ -19,7 +19,7 @@ namespace ALTC_Website.Services
                 AltcDatabaseSettings.Value.DatabaseName);
 
             jobCandidateCollection = mongoDatabase.GetCollection<JobCandidate>(
-                AltcDatabaseSettings.Value.JobCandidateCollection);
+                AltcDatabaseSettings.Value.JobCandidateCollection3);
         }
 
         public void Create(JobCandidate jobCandidate)

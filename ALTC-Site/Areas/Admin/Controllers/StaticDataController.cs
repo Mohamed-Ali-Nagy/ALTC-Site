@@ -24,7 +24,8 @@ namespace ALTC_Website.Areas.Admin.Controllers
              staticDataa.Delete(id);
            return RedirectToAction("GetAll");  
         }
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult Create()
         {
             return View();
         }

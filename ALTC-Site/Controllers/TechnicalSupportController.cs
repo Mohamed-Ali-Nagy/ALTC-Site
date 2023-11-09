@@ -36,10 +36,10 @@ namespace ALTC_Website.Controllers
             {
                 return View(requst);
             }
-
+            ViewBag.msgf = "Saved";
             requestService.Create(requst);
 
-            return RedirectToAction("index");
+            return RedirectToAction("Index", "Contact");
         }
     }
 }

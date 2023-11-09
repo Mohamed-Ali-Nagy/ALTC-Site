@@ -12,10 +12,8 @@ namespace ALTC_WebSite.Models
         public string Name { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
-        public string Details { get; set; }
         public string Message { get; set; }
         public string JobTitile { get; set; }
-
 
         public string FileName { get; set; }
 
