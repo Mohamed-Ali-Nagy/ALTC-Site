@@ -20,7 +20,7 @@ namespace ALTC_Website.Services
                 AltcDatabaseSettings.Value.DatabaseName);
 
             StaticCollection = mongoDatabase.GetCollection<StaticData>(
-                AltcDatabaseSettings.Value.StaticCollection);
+                AltcDatabaseSettings.Value.StaticCollection3);
         }
         public void Create(StaticData staticDataaa )
         {

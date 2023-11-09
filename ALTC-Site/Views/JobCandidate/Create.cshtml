@@ -1,4 +1,4 @@
-﻿@model ALTC_Website.ViewModels.RequestVM
+﻿@model ALTC_Website.ViewModels.JobRequsetVM
 
 @{
     ViewData["Title"] = "Create";
@@ -28,9 +28,9 @@
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Details" class="control-label"></label>
-                <input asp-for="Details" class="form-control" />
-                <span asp-validation-for="Details" class="text-danger"></span>
+                <label asp-for="Message" class="control-label"></label>
+                <input asp-for="Message" class="form-control" />
+                <span asp-validation-for="Message" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="File" class="control-label"></label>

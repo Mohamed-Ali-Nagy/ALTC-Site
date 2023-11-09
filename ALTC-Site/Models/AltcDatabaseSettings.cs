@@ -7,8 +7,8 @@
         public string DatabaseName { get; set; } = null!;
 
         public string TechnicalCollection { get; set; } = null!;
-        public string JobCandidateCollection { get; set; } = null!;
-        public string StaticCollection { get; set; } = null!;
+        public string JobCandidateCollection3 { get; set; } = null!;
+        public string StaticCollection3 { get; set; } = null!;
         public string RequestCollection { get; set; }
         public string ComplainCollection { get; set; }
 

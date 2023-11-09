@@ -44,7 +44,6 @@ namespace ALTC_Website.Controllers
             JobCandidate request = new JobCandidate()
             {
                 Name = requestVM.Name,
-                Details = requestVM.Details,
                 Email = requestVM.Email,
                 Phone = requestVM.Phone,
                 Message = requestVM.Message,
@@ -58,8 +57,8 @@ namespace ALTC_Website.Controllers
                 string fileName = Abstract.File.Upload(uploadPath, requestVM.File);
               
                 request.FileName = fileName;
-            jobcandidateService.Create(request);
             }
+            jobcandidateService.Create(request);
 
             return View();
 

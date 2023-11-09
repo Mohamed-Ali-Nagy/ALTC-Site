@@ -2,6 +2,7 @@ html {
   font-size: 14px;
 }
 
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -20,3 +21,33 @@ html {
 body {
   margin-bottom: 60px;
 }
+input:focus,
+textarea:focus,
+select:focus,
+a:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+.tab-wrap {
+    margin: 0 auto;
+    /*width: 50% !important;*/
+}
+/*
+@media (min-width: 768px) {
+    .tab-wrap {
+        width: 80% !important;
+    }
+}
+@media (max-width: 768px) {
+    .tab-wrap {
+        width: 90% !important;
+    }
+}
+
+       
+@media (min-width: 1200px) {
+    .tab-wrap {
+        width: 70% !important;
+    }
+}*/
