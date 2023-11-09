@@ -3,7 +3,7 @@
 @model List<Request>
 
 @{
-    
+
     ViewData["Title"] = "Index";
     int i = 1;
 }
@@ -31,7 +31,7 @@
                     <td>@request.FileName</td>
 
                     <td>
-                        <a asp-controller="Request" asp-action="Download"  asp-route-FileName="@request.FileName" class="btn btn-primary">Download </a>
+                        <a asp-controller="Request" asp-action="Download" asp-route-FileName="@request.FileName" class="btn btn-primary">Download </a>
                     </td>
                 </tr>
 
